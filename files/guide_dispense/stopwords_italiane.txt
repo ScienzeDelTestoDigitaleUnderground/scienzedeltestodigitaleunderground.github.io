@@ -1,0 +1,6 @@
+prep semplici                  articoli singolari        congiunzioni prep articolate                                                                                                                                                                            che pronomi personali particelle pronominali verbo essere e avere                                 aggettivi dimostrativi                                                                                                       aggettivi possessivi
+
+di|a|da|in|con|su|per|tra|fra|il|lo|la|i|gli|le|un|uno|una|e|ed|del|della|dei|degli|delle|dell'|al|ai|agli|alla|alle|all'|dal|dai|dagli|dalla|dalle|dall'|nel|nella|nei|negli|nelle|nell'|sul|sui|sugli|sulla|sulle|sull'|che|io|tu|noi|voi|essi|loro|si|mi|ti|ci|vi|sono|sei|è|siamo|siete|sono|ho|hai|ha|abbiamo|avete|hanno|questo|questa|questi|queste|quel||quella|quei|quelle|quello|quegli|quell’|quegli|quelle|mio|mia|miei|mie|tuo|tua|tuoi|tue|suo|sua|suoi|sue|nostro|nostra|nostri|nostre|vostro|vostra|vostri|vostre|loro
+
+per ricerca specifica:
+|non|più|ma|tutti|anche|come|se|essere|ogni|cui|ad|sia|o|chi|può|1
