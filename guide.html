@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="manifest" href="/manifest.json" />
+    <meta name="msapplication-TileColor" content="#ffffff" />
+    <meta name="msapplication-TileImage" content="/favicon/ms-icon-144x144.png" />
+    <meta name="theme-color" content="#ffffff" /><title>Guide</title>
+    <link rel="stylesheet" href="https://unpkg.com/terminal.css@0.7.2/dist/terminal.min.css" />
+    <link rel="stylesheet" href="https://unpkg.com/terminal.css@0.7.1/dist/terminal.min.css" />
+    <link rel="stylesheet" href="https://unpkg.com/terminal.css@0.7.1/dist/terminal.min.css" />
+    <link rel="stylesheet" href="/css/normalize.css" />
+    
+    <link rel="stylesheet" href="/terminal.min.css" />
+     
+    <link
+    rel="apple-touch-icon"
+    sizes="57x57"
+    href="/favicon/apple-icon-57x57.png"
+    />
+
+    <style>
+    .components-grid {
+      display: grid;
+      grid-column-gap: 1.4em;
+      grid-template-columns: auto;
+      grid-template-rows: auto;
+    }
+
+    .image-grid {
+      display: grid;
+      grid-template-rows: auto;
+      display: grid;
+      grid-gap: 1em;
+      grid-template-rows: auto;
+      grid-template-columns: repeat(
+        auto-fit,
+        minmax(calc(var(--page-width) / 12), 1fr)
+      );
+    }
+
+    @media only screen and (min-width: 70em) {
+      .components-grid {
+        grid-template-columns: 3fr 9fr;
+      }
+    }
+    </style>
+
+    <style>
+      :root {
+        --global-font-size: 15px;
+        --global-line-height: 1.4em;
+        --global-space: 10px;
+        --font-stack: Menlo, Monaco, Lucida Console, Liberation Mono,
+          DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace,
+          serif;
+        --mono-font-stack: Menlo, Monaco, Lucida Console, Liberation Mono,
+          DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace,
+          serif;
+        --background-color: #222225;
+        --page-width: 60em;
+        --font-color: #e8e9ed;
+        --invert-font-color: #222225;
+        --secondary-color: #a3abba;
+        --tertiary-color: #a3abba;
+        --primary-color: #62c4ff;
+        --error-color: #ff3c74;
+        --progress-bar-background: #3f3f44;
+        --progress-bar-fill: #62c4ff;
+        --code-bg-color: #3f3f44;
+        --input-style: solid;
+        --display-h1-decoration: none;
+      }
+    </style>
+</head>
+<body class="terminal">
+  <div class="container">
+    <img src="images/bannerlong2.gif">
+  <div class="terminal-nav">
+    <header class="terminal-logo">
+      <div class="logo terminal-prompt"><a href="index.html" typeof="WebPage"><u>LE GUIDE</u></a></div>
+    </header>
+    <nav class="terminal-menu">
+      <ul vocab="https://schema.org/" typeof="BreadcrumbList">
+        <li property="itemListElement" typeof="ListItem"><a href="index.html" property="item" typeof="WebPage"class="menu-item"><span property="name"><u>HOME</u></span></a><meta property="position" content="0"></li>
+          <li property="itemListElement" typeof="ListItem"><a href="about.html" property="item" typeof="WebPage"class="menu-item"><span property="name"><u>CHI SIAMO</u></span></a><meta property="position" content="1"></li>
+          <li property="itemListElement" typeof="ListItem"><a href="tools_link.html" property="item" typeof="WebPage" class="menu-item"><span property="name"><u>TOOL/LINK UTILI</u></span></a><meta property="position" content="3"></li>
+          <li property="itemListElement" typeof="ListItem"><a href="contatti.html" property="item" typeof="WebPage" class="menu-item"><span property="name"><u>CONTATTACI</u></span></a><meta property="position" content="4"></li>
+      </ul>
+    </nav>
+  </div>
+<div class="container">    
+    <header><h2 id="Contributors">Le nostre dispense al servizio della vostra necessità o curiosità!</h2></header>
+      <ul>
+        <li>
+          <div class="terminal-card" id="D1">
+            <header>CORPUS FOR DUMMIES</header>
+            <div>
+              <p>Guida per la sopravvivenza all'interno di ambienti di costruzione, consulto ed analisi di corpus testuali con <a href="http://corpora.lancs.ac.uk/lancsbox/download.php" target="_blank">LANCSBOX</a> e <a href="http://corpora.lancs.ac.uk/stats/toolbox.php" target="_blank">STAT TOOLS ONLINE</a>.</p>
+            </div>          
+            <!--<button class="btn btn-default btn-ghost" ><a href="https://teams.microsoft.com/l/file/7613E5D4-778D-4282-B9B2-C87BC7BB86F7?tenantId=baeefbc8-3c8b-4382-9126-e86bfef46ce6&fileType=docx&objectUrl=https%3A%2F%2Fstudentiunict.sharepoint.com%2Fsites%2FDigitalTextScienceUnderground9%2FShared%20Documents%2FGeneral%2FGuide%2FCorpus%20for%20dummies.docx&baseUrl=https%3A%2F%2Fstudentiunict.sharepoint.com%2Fsites%2FDigitalTextScienceUnderground9&serviceName=teams&threadId=19:527cfe4783d6443b9e80ac44d27bf096@thread.tacv2&groupId=f6d1d94d-3765-4640-bf50-48007d7fcf64">Scarica</a></button>-->
+            <ul>
+             <p>Autori:</p> 
+              <li><autore><a href="https://it.linkedin.com/in/stefano-angelo-rizzo/" target="_blank">Stefano Angelo Rizzo</a></autore></li>
+              <li><autore><a href="https://it.linkedin.com/in/cristina-maya-rao-35a584170" target="_blank">Cristina Maya Rao</a></autore></li>
+              <li><autore><a href="https://www.linkedin.com/in/martinaluciabentivegna/" target="_blank">Martina Bentivegna</a></autore></li>
+            </ul><br />
+            <button class="btn btn-default btn-ghost" ><a href="files/guide_dispense/Lancsbox_and_LancasterStatToolOnline_survivalguide.pdf" target="_blank">Scarica</a></button> <button class="btn btn-default btn-ghost" ><a href="files/guide_dispense/stopwords_italiane.txt">Extra: stopwords italiane</a></button>
+          </div> 
+        </li><br />
+
+        <li>
+          <div class="terminal-card" id="D2">
+            <header>LA PER NULLA PROFESSIONALE (MA IMMEDIATA) GUIDA TEI</header>
+            <div>
+              <p>Inizia a capirci qualcosa di <a href="https://tei-c.org/" target="_blank">TEI</a> ed <a href="https://www.w3.org/XML/" target="_blank">XML</a> con l'editor <a href="https://www.oxygenxml.com/xml_editor.html" target="_blank">OXYGEN</a> senza piagere eccessivamente. Si raccomanda comunque la predisposizione di fazzoletti.</p>
+            </div>
+            <ul>
+              <p>Autore:</p> 
+              <li><autore><a href="https://it.linkedin.com/in/stefano-angelo-rizzo/" target="_blank">Stefano Angelo Rizzo</a></autore></li>
+            </ul><br />          
+            <button class="btn btn-default btn-ghost" ><a href="files/guide_dispense/la_per_nulla_professionale_guida_TEI.pdf" target="_blank">Scarica</a></button>            
+          </div>             
+        </li><br />
+          
+        <li>
+          <div class="terminal-card" id="D3">
+            <header>GUIDA VOYANT TOOLS</header>
+            <div>
+              <p>Impara a usufruire a pieno di <a href="https://voyant-tools.org/" target="_blank">VOYANT TOOLS</a> per analizzare il tuo testo rapidamente e online.</p>
+            </div>   
+            <ul>
+              <p>Autore:</p> 
+              <li><autore><a href="http://www.linkedin.com/in/sonia-grassia" target="_blank">Sonia Grassia</a></autore></li> 
+            </ul><br />
+            <button class="btn btn-default btn-ghost" ><a href="files/guide_dispense/guida_Voyant_Tools.pdf" target="_blank">Scarica</a></button>
+          </div>             
+        </li><br />
+
+        <li>
+          <div class="terminal-card" id="D4">
+            <header>IMPAZZIAMO INSIEME CON PYTHON</header>
+            <div>
+              <p>Le basi di <a href="https://www.python.org/" target="_blank">PYTHON</a> non sono mai state così scorrevoli. Useremo <a href="https://www.anaconda.com/products/distribution" target="_blank">ANACONDA NAVIGATOR</a>.</p>
+            </div>   
+            <ul>
+              <p>Autori:</p> 
+              <li><autore><a href="https://www.linkedin.com/in/martinaluciabentivegna/" target="_blank">Martina Bentivegna</a></autore></li>
+              <li><autore><a href="https://www.linkedin.com/in/maria-claretta-ferlito-85a805210/" target="_blank">Maria Claretta Ferlito</a></autore></li>
+              <li><autore><a href="https://it.linkedin.com/in/cristina-maya-rao-35a584170" target="_blank">Cristina Maya Rao</a></autore></li>
+              <li><autore><a href="https://www.linkedin.com/in/agnese-spinella/" target="_blank">Agnese Spinella</a></autore></li>
+              <br>
+              <p>Revisione a cura di:</p>
+              <li><revisore><a href="https://www.linkedin.com/in/simone-giuseppe-laudani-1a8b5b238/" target="_blank">Simone Giuseppe Laudani</a></revisore></li>
+              <li><revisore><a href="https://www.linkedin.com/in/lorenzogalvagno/" target="_blank">Lorenzo Galvagno</a></revisore></li>
+            </ul><br />
+            <button class="btn btn-default btn-ghost" ><a href="files/guide_dispense/Impazziamo_insieme_con_Python.pdf" target="_blank">Scarica</a></button>
+          </div>             
+        </li><br />
+
+      </ul> 
+  </div>
+</body>
+</html>

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="manifest" href="/manifest.json" />
+    <meta name="msapplication-TileColor" content="#ffffff" />
+    <meta name="msapplication-TileImage" content="/favicon/ms-icon-144x144.png" />
+    <meta name="theme-color" content="#ffffff" /><title>Digital_Text_Underground</title>
+    <link rel="stylesheet" href="https://unpkg.com/terminal.css@0.7.2/dist/terminal.min.css" />
+    <link rel="stylesheet" href="https://unpkg.com/terminal.css@0.7.1/dist/terminal.min.css" />
+    <link rel="stylesheet" href="https://unpkg.com/terminal.css@0.7.1/dist/terminal.min.css" />
+    <link rel="stylesheet" href="/css/normalize.css" />
+    
+    <link rel="stylesheet" href="/terminal.min.css" />
+     
+    <link
+    rel="apple-touch-icon"
+    sizes="57x57"
+    href="/favicon/apple-icon-57x57.png"
+    />
+
+    <style>
+    .components-grid {
+      display: grid;
+      grid-column-gap: 1.4em;
+      grid-template-columns: auto;
+      grid-template-rows: auto;
+    }
+
+    .image-grid {
+      display: grid;
+      grid-template-rows: auto;
+      display: grid;
+      grid-gap: 1em;
+      grid-template-rows: auto;
+      grid-template-columns: repeat(
+        auto-fit,
+        minmax(calc(var(--page-width) / 12), 1fr)
+      );
+    }
+
+    @media only screen and (min-width: 70em) {
+      .components-grid {
+        grid-template-columns: 3fr 9fr;
+      }
+    }
+    </style>
+
+    <style>
+      :root {
+        --global-font-size: 15px;
+        --global-line-height: 1.4em;
+        --global-space: 10px;
+        --font-stack: Menlo, Monaco, Lucida Console, Liberation Mono,
+          DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace,
+          serif;
+        --mono-font-stack: Menlo, Monaco, Lucida Console, Liberation Mono,
+          DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace,
+          serif;
+        --background-color: #222225;
+        --page-width: 60em;
+        --font-color: #e8e9ed;
+        --invert-font-color: #222225;
+        --secondary-color: #a3abba;
+        --tertiary-color: #a3abba;
+        --primary-color: #62c4ff;
+        --error-color: #ff3c74;
+        --progress-bar-background: #3f3f44;
+        --progress-bar-fill: #62c4ff;
+        --code-bg-color: #3f3f44;
+        --input-style: solid;
+        --display-h1-decoration: none;
+      }
+    </style>
+</head>
+<body class="terminal">
+  <div class="container">
+    <img src="images/logoglitch.gif" alt="we we cosa ispeziona Lei con questo mouse?">
+  <div class="terminal-nav">
+    <header class="terminal-logo">
+      <div class="logo terminal-prompt"><a href="http://www.disum.unict.it/corsi/lm-43" target="_blank" class="no-style">DIGITAL TEXT SCIENCES UNDERGROUND</a></div>
+    </header>
+    <nav class="terminal-menu">
+        <ul vocab="https://schema.org/" typeof="BreadcrumbList">
+            <li property="itemListElement" typeof="ListItem"><a href="about.html" property="item" typeof="WebPage"class="menu-item"><span property="name"><u>CHI SIAMO</u></span></a><meta property="position" content="1"></li>
+            <li property="itemListElement" typeof="ListItem"><a href="guide.html"property="item" typeof="WebPage" class="menu-item active"><span property="name"><u>LE GUIDE</u></span></a><meta property="position" content="2"></li>
+            <li property="itemListElement" typeof="ListItem"><a href="tools_link.html" property="item" typeof="WebPage" class="menu-item"><span property="name"><u>TOOL/LINK UTILI</u></span></a><meta property="position" content="3"></li>
+            <li property="itemListElement" typeof="ListItem"><a href="contatti.html" property="item" typeof="WebPage" class="menu-item"><span property="name"><u>CONTATTACI</u></span></a><meta property="position" content="4"></li>
+        </ul>
+    </nav>
+  </div>
+</div>
+<div class="container">
+  <p>
+    Un sito semplice ed intuitivo per coloro i quali si approcciano allo studio e all'utilizzo dei dati testuali attraverso strumenti e tecniche digitali.
+  </p>  
+  <h2 id="project-goals"><u>Lo scopo del progetto</u></h2>
+  <p>Al fine di un utilizzo efficiente di tool pratici incontrati durante l’esperienza del C.d.L. <a href="http://www.disum.unict.it/corsi/lm-43/" target="_blank">“Scienze del testo per le professioni digitali”</a>, dato l’alto livello di cooperazione tra studenti e in previsione delle future generazioni di specialisti del testo digitale, si è ritenuto opportuno realizzare  alcuni contenuti introduttivi per lavorare con i menzionati tool.
+    <br>È stata proposta la creazione di una piattaforma online dove pubblicare le dispense prodotte dagli stessi studenti. Il sito integrerà una home page di presentazione e delle sezioni apposite dove poter scaricare in formato PDF le guide dando credito ai loro creatori. La piattaforma e le dispense verranno eventualmente erogate sia in italiano che in inglese per favorirne la circolazione e il ritorno in termini di visibilità </p>
+  <p>La realizzazione del progetto avviene sotto la supervisione e sotto consulto del Docente <a href="http://www.disum.unict.it/corsi/lm-43/docenti/salvatore.arcidiacono" target="_blank">Salvatore Arcidiacono</a>, responsabile della materia <a href="http://www.disum.unict.it/corsi/lm-43/insegnamenti/?cod=19978" target="_blank">“Banche dati e trattamento digitale dei testi“</a>.</p>
+</div>   
+<br>
+<div style="text-align: center">
+  <a href="https://www.unict.it/">
+  <img src="images/unictglitch3.gif" alt="Grazie a UNICT che rende possibili (e necessarie) realtà come questa" style="width:200px;height:200px"/>
+  </a>
+</div>
+</body>
+</html>

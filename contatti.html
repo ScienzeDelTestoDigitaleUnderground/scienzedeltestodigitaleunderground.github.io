@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="manifest" href="/manifest.json" />
+    <meta name="msapplication-TileColor" content="#ffffff" />
+    <meta name="msapplication-TileImage" content="/favicon/ms-icon-144x144.png" />
+    <meta name="theme-color" content="#ffffff" /><title>Digital Text Underground_Contacts</title>
+    <link rel="stylesheet" href="https://unpkg.com/terminal.css@0.7.2/dist/terminal.min.css" />
+    <link rel="stylesheet" href="https://unpkg.com/terminal.css@0.7.1/dist/terminal.min.css" />
+    <link rel="stylesheet" href="https://unpkg.com/terminal.css@0.7.1/dist/terminal.min.css" />
+    <link rel="stylesheet" href="/css/normalize.css" />
+    
+    <link rel="stylesheet" href="/terminal.min.css" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <link
+    rel="apple-touch-icon"
+    sizes="57x57"
+    href="/favicon/apple-icon-57x57.png"
+    />
+
+
+    <style>
+    .components-grid {
+      display: grid;
+      grid-column-gap: 1.4em;
+      grid-template-columns: auto;
+      grid-template-rows: auto;
+    }
+
+    .image-grid {
+      display: grid;
+      grid-template-rows: auto;
+      display: grid;
+      grid-gap: 1em;
+      grid-template-rows: auto;
+      grid-template-columns: repeat(
+        auto-fit,
+        minmax(calc(var(--page-width) / 12), 1fr)
+      );
+    }
+
+    @media only screen and (min-width: 70em) {
+      .components-grid {
+        grid-template-columns: 3fr 9fr;
+      }
+    }
+    </style>
+
+    <style>
+      :root {
+        --global-font-size: 15px;
+        --global-line-height: 1.4em;
+        --global-space: 10px;
+        --font-stack: Menlo, Monaco, Lucida Console, Liberation Mono,
+          DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace,
+          serif;
+        --mono-font-stack: Menlo, Monaco, Lucida Console, Liberation Mono,
+          DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace,
+          serif;
+        --background-color: #222225;
+        --page-width: 60em;
+        --font-color: #e8e9ed;
+        --invert-font-color: #222225;
+        --secondary-color: #a3abba;
+        --tertiary-color: #a3abba;
+        --primary-color: #62c4ff;
+        --error-color: #ff3c74;
+        --progress-bar-background: #3f3f44;
+        --progress-bar-fill: #62c4ff;
+        --code-bg-color: #3f3f44;
+        --input-style: solid;
+        --display-h1-decoration: none;
+      }
+    </style>
+</head>
+<body class="terminal">
+  <div class="container">
+    <img src="images/bannerlong2.gif">
+  <div class="terminal-nav">
+    <header class="terminal-logo">
+      <div class="logo terminal-prompt"><a href="index.html" typeof="WebPage"><u>CONTATTACI</u></a></div>
+    </header>
+  <nav class="terminal-menu">
+    <ul vocab="https://schema.org/" typeof="BreadcrumbList">
+      <li property="itemListElement" typeof="ListItem"><a href="index.html" property="item" typeof="WebPage"class="menu-item"><span property="name"><u>HOME</u></span></a><meta property="position" content="0"></li>
+        <li property="itemListElement" typeof="ListItem"><a href="about.html" property="item" typeof="WebPage"class="menu-item"><span property="name"><u>CHI SIAMO</u></span></a><meta property="position" content="1"></li>
+        <li property="itemListElement" typeof="ListItem"><a href="guide.html"property="item" typeof="WebPage" class="menu-item active"><span property="name"><u>LE GUIDE</u></span></a><meta property="position" content="2"></li>
+        <li property="itemListElement" typeof="ListItem"><a href="tools_link.html" property="item" typeof="WebPage" class="menu-item"><span property="name"><u>TOOL/LINK UTILI</u></span></a><meta property="position" content="3"></li>
+    </ul>
+  </nav>
+  </div>
+<div class="container">
+    <p>Mettiti liberamente in contatto con noi se hai interesse nello scoprire qualcosa in più, se hai domande o se hai semplicemente voglia di contribuire al progetto.
+    </p>
+    <p style="text-align:center"><strong>Puoi inviarci direttamente una mail a <u><a id="ind" href="mailto:mailsdt">digitaltextsciencesunderground@gmail.com</a></u></strong>.
+    </p>
+    <p>Oppure potete spedire un messaggio alla nostra pagina <strong><a target="_blank" href="https://github.com/ScienzeDelTestoUnderground">GitHub.</a></strong> </br>
+    In alternativa, trovi tutti i contatti LinkedIn dei contributors cliccando i nostri nomi alla sezione <a href="about.html" typeof="WebPage" target="_blank"><u>CHI SIAMO</u></a>.
+    </p>
+    <p>E come se non bastasse, il nostro corso di laurea ha un Social Media Team che potete contattare su <strong><a target="_blank" href="https://www.facebook.com/Scienzedeltesto">Facebook</a></strong> o su <strong><a target="_blank" href="https://www.instagram.com/scienzedeltesto/">Instagram</a></strong>. C'è anche un canale <strong><a target="_blank" href="https://www.youtube.com/channel/UCoBGbWDszcQSZJVEtijvFFg">YouTube</a></strong> ma insomma dai non credo sia adatto a questo.</p>
+    <section  style="text-align: center">
+      <img src="images/logosmt.PNG" pos="middle" style="width:430px;height:430px" alt="bellino il logo del Social Media Team, vero?"> 
+    </section>
+    </div>
+	
+		
+	<script>
+$('#ind').attr('href', $("#ind").attr("href").replace("mailsdt","digitaltextsciencesunderground@gmail.com"));
+	</script>
+    </body>
+    </html>
