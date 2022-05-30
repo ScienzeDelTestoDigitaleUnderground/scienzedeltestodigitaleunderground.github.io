@@ -73,6 +73,14 @@
         --input-style: solid;
         --display-h1-decoration: none;
       }
+      #myDIV {
+      height:300px;
+      }
+
+      #myTable { 
+      width:100%;
+      table-layout: fixed;
+      }
     </style>
 </head>
 <body class="terminal">
@@ -92,14 +100,15 @@
     </nav>
   </div>
 <div class="container">
-    <p>
+    <p style="text-align: justify">
       Archivio dei tool utili ad analisi di linguistica computazionale e trattamento digitale dei dati testuali.
     </p>
     <section>
       <!--<header>
         <h2 id="Tables">Tables</h2>
       </header>-->
-                <table>
+      <div id="myDIV">
+        <table id="myTable" cellpadding="3">
                   <caption>
                     Usate F3 per cercare qualcosa
                   </caption>
